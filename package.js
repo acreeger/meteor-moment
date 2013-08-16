@@ -3,6 +3,9 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
+  if(api.export) {
+    api.export('moment');
+  }
   where = where || ['client', 'server']
   api.add_files('lib/moment/moment.js', where);
 });
