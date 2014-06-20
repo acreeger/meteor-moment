@@ -6,7 +6,9 @@ Package.on_use(function (api, where) {
   if(api.export) {
     api.export('moment');
   }
+  api.use('ui', 'client', {weak: true});
   where = where || ['client', 'server'];
   api.add_files('lib/moment/moment.js', where);
   api.add_files('export-moment.js', where);
+  api.add_files('moment-helper.js','client');
 });
