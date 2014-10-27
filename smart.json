@@ -1,8 +1,0 @@
-{
-  "name": "moment",
-  "description": "Moment.js, a JavaScript date library for parsing, validating, manipulating, and formatting dates, packaged for Meteor. See http://momentjs.com.",
-  "homepage": "https://github.com/acreeger/meteor-moment",
-  "author": "Adam Creeger <adamcreeger@gmail.com> (http://acree.gr)",
-  "version": "2.8.1",
-  "git": "https://github.com/acreeger/meteor-moment.git"
-}
